@@ -14,5 +14,5 @@ Docker Hub in the
         -p 80:9000 \
         goabout/gtfs-editor
 
-The application will be installed at `/opt/gtfs-editor'. The default data
+The application will be installed at `/opt/gtfs-editor`. The default data
 location, `/opt/gtfs-editor/data` is a volume. Port 9000 is exposed.

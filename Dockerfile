@@ -18,7 +18,8 @@ RUN cd /opt && \
 
 WORKDIR /opt/gtfs-editor
 
-RUN ../play/play dependencies
+RUN ../play/play dependencies && \
+    mkdir /opt/gtfs-editor/public/data
 
 VOLUME /opt/gtfs-editor/data
 
